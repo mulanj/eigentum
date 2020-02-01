@@ -77,6 +77,8 @@ more times in the span of 15 years are marked as ‘Highly Vulnerable’ areas.
 * With the BCAssessment data merged based on the Entity Resolution on Adress
 
 **BubbleInsights-REBGV.ipynb**
+  Note: The file is .7z format(zipped) and pushed into Github due to the file size Constraints. 
+ 	To Unzip - Please [Download .7z](https://www.7-zip.org/)
 * Used to draw bubble (property inflation) insights by using following set of data.
 * HPI_benchmark_prices_rebgv.csv (HPI index for Vancouver by REBGV(Areawise(2006-2019)).
 * BC Assessment Data(csv (2006-2019)).
