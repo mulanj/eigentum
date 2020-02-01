@@ -1,6 +1,31 @@
 #EIGENTUM
 
-Big Data project CMPT-733
+Snce istorically Vancouver has always been in a housing bubble. Potential buyers take the current increasing price
+trends of housing for granted to invest. But the prices may suddenly fall and it takes
+really long time to get Return On Investment. In this project we aim to build a system
+that would aid potential user about the existence and nature of housing bubble in an
+area, an estimation of housing price based on a number of features and a future
+property value prediction for a number of different property type in east and west
+Vancouver.
+
+#Data Collection
+We started exploring around out problem statement and the solution we wanted to
+give and found out that we can’t use any prepared data to solve the business problem.
+We started to search for the property listing websites first and shortlisted Realtor.ca
+and Rew.ca for getting the data properties listed for selling. Based on the popularity
+and the huge database of all the active property listing in Metro Vancouver we
+selected Realtor.ca as our primary data source for all the properties listed in Metro
+Vancouver. We also decided to collect the data from Data Vancouver which keeps all
+the historical property tax report for the Vancouver and Greater Vancouver area.
+We needed a benchmark index to solve the problem of bubble analysis thus we chose
+HPI Property Benchmark Price (HPI-PBP). HPI-PBP is calculated using multivariate
+regression analysis, a commonly used statistical technique for all the properties listed
+in an area. HPI-PBP in British Columbia is managed by two agencies namely CREA -
+Canada Real Estate Agency (crea.ca) and the REBGV - Real Estate Board of Greater
+Vancouver (rebgv.org). Both of which uses different set of criteria to calculate the
+HPI-PBP in Metro Vancouver and we used both of the data source from year
+2006-2019.
+
 
 #Contents of each file and what does they do
 
